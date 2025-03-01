@@ -8,6 +8,8 @@ export const generateToken = (userId, res) => {
         maxAge: 7 * 24 * 60 * 60 * 1000,  //MS
         httpOnly: true,  // Prevents XSS attacks cross-site scripting attacks
         sameSite: "strict",  // CSRF attacks cross-site request forgery attacks
-        secure: true,  // Cookie only sent over HTTPS
+        secure: process.env.NODE_ENV !== "development"  // Cookie only sent over HTTPS
     })
+
+    return token;
 }
