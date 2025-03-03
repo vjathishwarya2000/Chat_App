@@ -23,21 +23,24 @@ A full-stack chat application built using modern web technologies, featuring rea
    git clone https://github.com/vjathishwarya2000/Chat_App.git
    
 2. Install backend dependencies
-```bash
+    ```bash
     cd backend
     npm install
 
 3. Install frontend dependencies
+    ```bash
     cd ../frontend
     npm install
 
 4. Set environment variables (e.g., MongoDB URI, JWT Secret)
 
 5. Start the backend server and frontend server
+    ```bash
     npm start
 
-# Usage
 
-    Register a new user or log in with existing credentials.
-    Start chatting with other users in real time.
-    View online users and past messages.
+## Usage
+
+- Register a new user or log in with existing credentials.
+- Start chatting with other users in real time.
+- View online users and past messages.
