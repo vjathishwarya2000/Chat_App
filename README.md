@@ -23,6 +23,7 @@ A full-stack chat application built using modern web technologies, featuring rea
    git clone https://github.com/vjathishwarya2000/Chat_App.git
    
 2. Install backend dependencies
+```bash
     cd backend
     npm install
 
